@@ -1,7 +1,9 @@
+// function solve
 function Solve(val) {
   var v = document.getElementById("res");
   v.value += val;
 }
+
 function Result() {
   var num1 = document.getElementById("res").value;
   try {
@@ -11,14 +13,18 @@ function Result() {
     document.getElementById("res").value = "Error";
   }
 }
+
 function Clear() {
   var inp = document.getElementById("res");
   inp.value = "";
 }
+
 function Back() {
   var ev = document.getElementById("res");
   ev.value = ev.value.slice(0, -1);
 }
+
+// dom manipulation
 document.addEventListener("keydown", function (event) {
   const key = event.key;
   const validKeys = "0123456789+-*/.%";

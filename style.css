@@ -1,3 +1,4 @@
+/* css starts here */
 * {
   margin: 0;
   padding: 0;
@@ -15,6 +16,8 @@
   padding: 20px;
   border-radius: 10px;
 }
+
+/* form input */
 #content form input {
   border: 0;
   outline: 0;
